@@ -120,3 +120,15 @@ fun FormSiswa(
                 }
             )
             Spacer(modifier = Modifier.height(30.dp))
+            Button(
+                modifier = Modifier.fillMaxWidth(1f).padding(horizontal = 20.dp),
+                enabled = txtAlamat.isNotEmpty(),
+                onClick = {OnSubmitButtonClicked(listData)}
+            ){
+                Text(stringResource(id = R.string.submit))
+            }
+        }
+    }
+}
+
+
