@@ -119,4 +119,4 @@ fun FormSiswa(
                     txtAlamat = it
                 }
             )
-
+            Spacer(modifier = Modifier.height(30.dp))
