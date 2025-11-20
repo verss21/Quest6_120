@@ -71,3 +71,5 @@ fun TampilSiswa(
                             fontFamily = FontFamily.Cursive, fontSize = 22.sp)
                     }
                     Divider(thickness = dimensionResource(R.dimen.thickness_divider))
+                }
+                Spacer(modifier = Modifier.height(10.dp))
